@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<STYLE>
+		BODY{
+			background-color: #FFEBCD;
+		}
+		.autostyle2{
+			color: red;
+			font-size: 20px;
+			text-align: center;
+		}
+	</STYLE>
+</HEAD>
+<BODY bgcolor="FFEBCD">
+	<FORM action ="registration.html">
+		<TABLE>
+			<TR class="autostyle2">
+				<TD colspan="2">OrderFoodOnline</TD></TR>
+				<TR>
+					<TD WIDTH="100%" COLSPAN="2">
+					</TD>
+				</TR>
+				<TR>
+					<TD><LABEL for =""name>Name:</LABEL></TD>
+					<TD><INPUT type="text" name="username" placeholder="Enter your name" required></TD>
+				</TR>
+				<TR>
+					<TD><LABEL>Date:</LABEL></TD>
+					<TD><INPUT type="date" name="date" required></TD>
+				</TR> 
+				<TR>
+					<TD><LABEL>email ID:</LABEL></TD>
+					<TD><INPUT type="email" name="usermail" placeholder="Enter your email ID" required></TD>
+				</TR>
+				<TR>
+				<TD><LABEL>Contact Number:</LABEL></TD>
+				<TD><INPUT type="tel" name="usertel" placeholder="Enter your phone number" required></TD>
+			</TR>
+			<TR>
+				<TD><LABEL for="food">Select food:</LABEL></TD>
+				<TD><LABEL for="non-veg">Non-vegetarian</LABEL>
+					<INPUT type="Radio" name="food" ID="nonveg">
+					<LABEL for="veg">Vegetarian</LABEL>
+					<INPUT type="Radio" name="food" ID="veg"></TD>
+			</TR>
+			<TR>
+				<TD><LABEL for="restro">Select Restaurant:</LABEL></TD>
+				<TD><SELECT>
+					<OPTION value="opt1">Select Your Restaurants</OPTION>
+					<OPTION value="opt2">Sierra Palms</OPTION>
+					<OPTION value="opt3">Roy's Restaurant</OPTION>
+					<OPTION value="opt4">Basha</OPTION>
+					<OPTION value="opt5">Pearls</OPTION>
+				</SELECT></TD>
+			</TR>
+			<TR>
+				<TD><LABEL for="drinks">Drinks:</LABEL></TD>
+				<TD><SELECT>
+					<OPTION value="opt6">Select Your Drink</OPTION>
+					<OPTION value="opt7">Sierra Juice</OPTION>
+					<OPTION value="opt8">Cappucino</OPTION>
+					<OPTION value="opt9">Maltina</OPTION>
+					<OPTION value="opt10">Mocha</OPTION>
+					</SELECT></TD>
+			</TR>
+			<TR>
+			<TD><LABEL for="soups">Soups:</LABEL></TD>
+			<TD><SELECT>
+			        <OPTION value="opt11">Select the Soup of your choice</OPTION>
+					<OPTION value="opt12">Banga soup</OPTION>
+					<OPTION value="opt13">Krain Krain</OPTION>
+					<OPTION value="opt14">Potato leaves</OPTION>
+					<OPTION value="opt15">Groundnut soup</OPTION>
+				</SELECT></TD>
+				</TR>
+				<TR>
+					<TD><LABEL for="dishes">Dishes:</LABEL></TD>
+					<TD><SELECT>
+					 <OPTION value="opt16">Select the Dishes of your choice</OPTION>
+					 <OPTGROUP label="Italian">
+					<OPTION value="opt17">Lasagna</OPTION>
+					<OPTION value="opt18">Gelato</OPTION>
+					<OPTION value="opt19">Pasta</OPTION>
+					<OPTION value="opt20">Ciccheti</OPTION>
+				</OPTGROUP>
+				 <OPTGROUP label="Chinese">
+					<OPTION value="opt21">Dumplings</OPTION>
+					<OPTION value="opt22">Chowmein</OPTION>
+					<OPTION value="opt23">Noodles</OPTION>
+					<OPTION value="opt24">Hotpot</OPTION>
+				</OPTGROUP>
+			</SELECT>
+		</TD>
+	</TR>
+	<TR>
+		<TD><LABEL for="Order For:">Order For:</LABEL></TD>
+		<TD><LABEL for="pickup:">Take Away:</LABEL>
+		<INPUT type="radio" name="pickup" ID="pickup">
+		<LABEL for="home">Home Delivery</LABEL>
+		<INPUT type="radio" name="pickup" ID="pickup"></TD>
+	</TR>
+
+		</TABLE>
+	</FORM>
+
+</BODY>
+</HTML>
